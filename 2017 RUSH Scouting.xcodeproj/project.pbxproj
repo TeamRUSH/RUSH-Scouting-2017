@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		584A972F1E3407BB00835415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A972E1E3407BB00835415 /* main.m */; };
+		584A97321E3407BB00835415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A97311E3407BB00835415 /* AppDelegate.m */; };
+		584A97351E3407BB00835415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A97341E3407BB00835415 /* ViewController.m */; };
+		584A97381E3407BB00835415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584A97361E3407BB00835415 /* Main.storyboard */; };
+		584A973A1E3407BB00835415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584A97391E3407BB00835415 /* Assets.xcassets */; };
+		584A973D1E3407BB00835415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584A973B1E3407BB00835415 /* LaunchScreen.storyboard */; };
+		584A97481E3407BB00835415 /* _017_RUSH_ScoutingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A97471E3407BB00835415 /* _017_RUSH_ScoutingTests.m */; };
+		584A97531E3407BB00835415 /* _017_RUSH_ScoutingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584A97521E3407BB00835415 /* _017_RUSH_ScoutingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		584A97441E3407BB00835415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584A97221E3407BA00835415 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584A97291E3407BB00835415;
+			remoteInfo = "2017 RUSH Scouting";
+		};
+		584A974F1E3407BB00835415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 584A97221E3407BA00835415 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 584A97291E3407BB00835415;
+			remoteInfo = "2017 RUSH Scouting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		584A972A1E3407BB00835415 /* 2017 RUSH Scouting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2017 RUSH Scouting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		584A972E1E3407BB00835415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		584A97301E3407BB00835415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		584A97311E3407BB00835415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		584A97331E3407BB00835415 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		584A97341E3407BB00835415 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		584A97371E3407BB00835415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		584A97391E3407BB00835415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		584A973C1E3407BB00835415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		584A973E1E3407BB00835415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584A97431E3407BB00835415 /* 2017 RUSH ScoutingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2017 RUSH ScoutingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		584A97471E3407BB00835415 /* _017_RUSH_ScoutingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _017_RUSH_ScoutingTests.m; sourceTree = "<group>"; };
+		584A97491E3407BB00835415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		584A974E1E3407BB00835415 /* 2017 RUSH ScoutingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2017 RUSH ScoutingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		584A97521E3407BB00835415 /* _017_RUSH_ScoutingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _017_RUSH_ScoutingUITests.m; sourceTree = "<group>"; };
+		584A97541E3407BB00835415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		584A97271E3407BB00835415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A97401E3407BB00835415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A974B1E3407BB00835415 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		584A97211E3407BA00835415 = {
+			isa = PBXGroup;
+			children = (
+				584A972C1E3407BB00835415 /* 2017 RUSH Scouting */,
+				584A97461E3407BB00835415 /* 2017 RUSH ScoutingTests */,
+				584A97511E3407BB00835415 /* 2017 RUSH ScoutingUITests */,
+				584A972B1E3407BB00835415 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		584A972B1E3407BB00835415 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				584A972A1E3407BB00835415 /* 2017 RUSH Scouting.app */,
+				584A97431E3407BB00835415 /* 2017 RUSH ScoutingTests.xctest */,
+				584A974E1E3407BB00835415 /* 2017 RUSH ScoutingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		584A972C1E3407BB00835415 /* 2017 RUSH Scouting */ = {
+			isa = PBXGroup;
+			children = (
+				584A97301E3407BB00835415 /* AppDelegate.h */,
+				584A97311E3407BB00835415 /* AppDelegate.m */,
+				584A97331E3407BB00835415 /* ViewController.h */,
+				584A97341E3407BB00835415 /* ViewController.m */,
+				584A97361E3407BB00835415 /* Main.storyboard */,
+				584A97391E3407BB00835415 /* Assets.xcassets */,
+				584A973B1E3407BB00835415 /* LaunchScreen.storyboard */,
+				584A973E1E3407BB00835415 /* Info.plist */,
+				584A972D1E3407BB00835415 /* Supporting Files */,
+			);
+			path = "2017 RUSH Scouting";
+			sourceTree = "<group>";
+		};
+		584A972D1E3407BB00835415 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				584A972E1E3407BB00835415 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		584A97461E3407BB00835415 /* 2017 RUSH ScoutingTests */ = {
+			isa = PBXGroup;
+			children = (
+				584A97471E3407BB00835415 /* _017_RUSH_ScoutingTests.m */,
+				584A97491E3407BB00835415 /* Info.plist */,
+			);
+			path = "2017 RUSH ScoutingTests";
+			sourceTree = "<group>";
+		};
+		584A97511E3407BB00835415 /* 2017 RUSH ScoutingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				584A97521E3407BB00835415 /* _017_RUSH_ScoutingUITests.m */,
+				584A97541E3407BB00835415 /* Info.plist */,
+			);
+			path = "2017 RUSH ScoutingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		584A97291E3407BB00835415 /* 2017 RUSH Scouting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584A97571E3407BB00835415 /* Build configuration list for PBXNativeTarget "2017 RUSH Scouting" */;
+			buildPhases = (
+				584A97261E3407BB00835415 /* Sources */,
+				584A97271E3407BB00835415 /* Frameworks */,
+				584A97281E3407BB00835415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2017 RUSH Scouting";
+			productName = "2017 RUSH Scouting";
+			productReference = 584A972A1E3407BB00835415 /* 2017 RUSH Scouting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		584A97421E3407BB00835415 /* 2017 RUSH ScoutingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584A975A1E3407BB00835415 /* Build configuration list for PBXNativeTarget "2017 RUSH ScoutingTests" */;
+			buildPhases = (
+				584A973F1E3407BB00835415 /* Sources */,
+				584A97401E3407BB00835415 /* Frameworks */,
+				584A97411E3407BB00835415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584A97451E3407BB00835415 /* PBXTargetDependency */,
+			);
+			name = "2017 RUSH ScoutingTests";
+			productName = "2017 RUSH ScoutingTests";
+			productReference = 584A97431E3407BB00835415 /* 2017 RUSH ScoutingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		584A974D1E3407BB00835415 /* 2017 RUSH ScoutingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 584A975D1E3407BB00835415 /* Build configuration list for PBXNativeTarget "2017 RUSH ScoutingUITests" */;
+			buildPhases = (
+				584A974A1E3407BB00835415 /* Sources */,
+				584A974B1E3407BB00835415 /* Frameworks */,
+				584A974C1E3407BB00835415 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				584A97501E3407BB00835415 /* PBXTargetDependency */,
+			);
+			name = "2017 RUSH ScoutingUITests";
+			productName = "2017 RUSH ScoutingUITests";
+			productReference = 584A974E1E3407BB00835415 /* 2017 RUSH ScoutingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		584A97221E3407BA00835415 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Team RUSH 27";
+				TargetAttributes = {
+					584A97291E3407BB00835415 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GG6L423N75;
+						ProvisioningStyle = Automatic;
+					};
+					584A97421E3407BB00835415 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GG6L423N75;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 584A97291E3407BB00835415;
+					};
+					584A974D1E3407BB00835415 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GG6L423N75;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 584A97291E3407BB00835415;
+					};
+				};
+			};
+			buildConfigurationList = 584A97251E3407BB00835415 /* Build configuration list for PBXProject "2017 RUSH Scouting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 584A97211E3407BA00835415;
+			productRefGroup = 584A972B1E3407BB00835415 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				584A97291E3407BB00835415 /* 2017 RUSH Scouting */,
+				584A97421E3407BB00835415 /* 2017 RUSH ScoutingTests */,
+				584A974D1E3407BB00835415 /* 2017 RUSH ScoutingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		584A97281E3407BB00835415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584A973D1E3407BB00835415 /* LaunchScreen.storyboard in Resources */,
+				584A973A1E3407BB00835415 /* Assets.xcassets in Resources */,
+				584A97381E3407BB00835415 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A97411E3407BB00835415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A974C1E3407BB00835415 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		584A97261E3407BB00835415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584A97351E3407BB00835415 /* ViewController.m in Sources */,
+				584A97321E3407BB00835415 /* AppDelegate.m in Sources */,
+				584A972F1E3407BB00835415 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A973F1E3407BB00835415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584A97481E3407BB00835415 /* _017_RUSH_ScoutingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		584A974A1E3407BB00835415 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584A97531E3407BB00835415 /* _017_RUSH_ScoutingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		584A97451E3407BB00835415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584A97291E3407BB00835415 /* 2017 RUSH Scouting */;
+			targetProxy = 584A97441E3407BB00835415 /* PBXContainerItemProxy */;
+		};
+		584A97501E3407BB00835415 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 584A97291E3407BB00835415 /* 2017 RUSH Scouting */;
+			targetProxy = 584A974F1E3407BB00835415 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		584A97361E3407BB00835415 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584A97371E3407BB00835415 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		584A973B1E3407BB00835415 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				584A973C1E3407BB00835415 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		584A97551E3407BB00835415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		584A97561E3407BB00835415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		584A97581E3407BB00835415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH Scouting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-Scouting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		584A97591E3407BB00835415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH Scouting/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-Scouting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		584A975B1E3407BB00835415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH ScoutingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-ScoutingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2017 RUSH Scouting.app/2017 RUSH Scouting";
+			};
+			name = Debug;
+		};
+		584A975C1E3407BB00835415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH ScoutingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-ScoutingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2017 RUSH Scouting.app/2017 RUSH Scouting";
+			};
+			name = Release;
+		};
+		584A975E1E3407BB00835415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH ScoutingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-ScoutingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "2017 RUSH Scouting";
+			};
+			name = Debug;
+		};
+		584A975F1E3407BB00835415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = GG6L423N75;
+				INFOPLIST_FILE = "2017 RUSH ScoutingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RUSH.-017-RUSH-ScoutingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "2017 RUSH Scouting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		584A97251E3407BB00835415 /* Build configuration list for PBXProject "2017 RUSH Scouting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584A97551E3407BB00835415 /* Debug */,
+				584A97561E3407BB00835415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		584A97571E3407BB00835415 /* Build configuration list for PBXNativeTarget "2017 RUSH Scouting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584A97581E3407BB00835415 /* Debug */,
+				584A97591E3407BB00835415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		584A975A1E3407BB00835415 /* Build configuration list for PBXNativeTarget "2017 RUSH ScoutingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584A975B1E3407BB00835415 /* Debug */,
+				584A975C1E3407BB00835415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		584A975D1E3407BB00835415 /* Build configuration list for PBXNativeTarget "2017 RUSH ScoutingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				584A975E1E3407BB00835415 /* Debug */,
+				584A975F1E3407BB00835415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 584A97221E3407BA00835415 /* Project object */;
+}
